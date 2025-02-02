@@ -1,3 +1,15 @@
+## 0.10.0 (2025-02-02)
+
+### Breaking Changes
+
+#### Fixed a panic when unmarshalling unknown spend policy types
+
+An error will now be returned when trying to encode a transaction with an unset `SpendPolicy`
+
+### Fixes
+
+- Include storage cost in renter renewal cost
+
 ## 0.9.1 (2025-01-18)
 
 ### Fixes
